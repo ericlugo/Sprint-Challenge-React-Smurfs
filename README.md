@@ -28,10 +28,26 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the differences between `client-side routing` and `server-side routing`.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
-- [ ] Mention three tools we can use to make AJAX requests.
+---
 
+- [x] Explain the differences between `client-side routing` and `server-side routing`.
+
+Routing is present in essentially all websites.
+Server-side routing is the classic way to route traffic from one location to another. With server-side routing, a GET request is sent to a server (typcally with a link) which replies with a document that is then loaded by your browser. 
+Client-side routing refers when the routes are handled by Javascript. The URL will still change accordingly, but no request to the server is made. Instead, the entire webapp is preloaded and the correct content is shown based entirely on the Javascript Routing logic.
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+C: POST- Creates new entries
+R: GET- Retrieves existing data
+U: PUT- Updates data
+D: DELETE- Deletes data
+
+- [x] Mention three tools we can use to make AJAX requests.
+
+fetch, axios, and http methods.
+
+---
 
 ## Project Set Up
 
@@ -147,3 +163,7 @@ Add a Router to this application by using React Router.
 
 - [ ] If a user clicks on a smurf, they should be routed to `/smurf/:id` and a single smurf should be displayed on the page.
 - [ ] I know this seems like a small task, but you'll have to get crafty with your data and your logic here.
+
+---
+
+### This fork is maintained by: Eric SarragaLugo
